@@ -14,7 +14,7 @@ You must have followed the PZwiki Dedicated Server guide here: https://pzwiki.ne
 ### Install Instructions:
 Download `restart-server.sh` from this repository.
 
-Place `restart-server.sh` in the /opt/pzserver/ directory of your linux dedicated server.
+Place `restart-server.sh` in the `/opt/pzserver` directory of your linux dedicated server.
 
 Run this command to open the cron task scheduler while logged in as `pzuser`:
 ```crontab -e```

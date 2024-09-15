@@ -3,7 +3,9 @@ Script for restarting a project zomboid server simply that was installed using t
 
 ### Important Notes:
 This script was created to run on Ubuntu Server 24.01.LTS, it should work on other distros but I cannot guarantee it.
+
 This script should also run the restart command for each tmux session you have open simulatenously but I have not tested with more than one at the time of creation.
+
 This script will not start the server immediately after a system reboot, I recommend using the systemd method from https://pzwiki.net/wiki/Dedicated_server if you prefer that.
 
 ### Prequisites:
@@ -11,6 +13,7 @@ You must have followed the PZwiki Dedicated Server guide here: https://pzwiki.ne
 
 ### Install Instructions:
 Download `restart-server.sh` from this repository.
+
 Place `restart-server.sh` in the /opt/pzserver/ directory of your linux dedicated server.
 
 Run this command to open the cron task scheduler while logged in as `pzuser`:

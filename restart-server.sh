@@ -24,4 +24,5 @@ tmux send-keys -t $session 'servermsg "Server restarting now."' ENTER
 sleep 5
 tmux send-keys -t $session "quit" ENTER
 sleep 30
+tmux send-keys -t $session "clear-history" ENTER
 tmux send-keys -t $session "bash start-server.sh" ENTER

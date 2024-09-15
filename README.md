@@ -1,5 +1,5 @@
 # zomboid-restart-linux
-Script for restarting a project zomboid server simply that was installed using the pzwiki guide.
+Script for automatically restarting a project zomboid dedicated server that was installed using the pzwiki guide.
 
 ### Important Notes:
 This script was created to run on Ubuntu Server 24.01.LTS, it should work on other distros but I cannot guarantee it.

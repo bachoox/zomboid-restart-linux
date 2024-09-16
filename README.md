@@ -22,7 +22,7 @@ Run this command to open the cron task scheduler while logged in as `pzuser`:
 
 Insert the following line at the bottom of the file:
 
-```* 2 * * * /opt/pzserver/restart-server.sh```
+```* */2 * * * /opt/pzserver/restart-server.sh```
 
 This is configured to restart every 2 hours by default, if you would prefer it run more or less frequently here is a [guide](https://opensource.com/article/21/7/cron-linux) explaining how to configure that with cron.
 
